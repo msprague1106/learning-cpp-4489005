@@ -20,8 +20,15 @@
   "window.commandCenter": false,
   "screencastMode.onlyKeyboardShortcuts": true,
   "terminal.integrated.fontSize": 18,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/bin/bash"
+    }
+  },
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
+  "C_Cpp.default.compilerPath": "/usr/bin/g++",
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
   "workbench.statusBar.visible": true,
   "C_Cpp.clang_format_fallbackStyle": "none",

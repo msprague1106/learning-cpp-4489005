@@ -2,3 +2,7 @@
 node_modules
 .tmp
 npm-debug.log
+
+# C++ lesson build outputs
+src/**/CodeDemo
+src/**/CodeDemo.exe
