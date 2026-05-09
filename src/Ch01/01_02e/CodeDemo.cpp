@@ -3,10 +3,11 @@
 // Hello World, by Eduardo Corpeño 
 
 #include <iostream>
+using namespace std;    
 
 int main(){
-    std::cout << "Hi There!" << std::endl;
+    cout << "Hi There!" << endl;
 
-    std::cout << std::endl << std::endl;
+    cout << endl << endl;
     return (0);
 }
