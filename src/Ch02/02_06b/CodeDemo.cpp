@@ -2,10 +2,29 @@
 // Exercise 02_06
 // Preprocessor directives, by Eduardo Corpeño 
 
-#include <iostream>
+#include<iostream>
+#include<string>
+#include<cstdint>
 
-int main(){
-    
-    std::cout << std::endl << std::endl;
+#define CAPACITY 5000
+#define DEBUG
+
+using namespace std;
+
+int main()
+{
+    int32_t large = CAPACITY;
+    uint8_t small = 37;
+#ifdef DEBUG
+    cout << "\n[About to perform the addition]\n" << endl;
+#endif
+
+    large += small; // Shorthand for large = large + small;
+
+    cout << "The capacity is " << large << endl;
+
+
+    cout << endl << endl;
+
     return (0);
 }
