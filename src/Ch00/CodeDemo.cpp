@@ -1,5 +1,5 @@
 // Learning C++ 
-// Exercise 00_03 with modifications by Matthew Sprague
+// Exercise 00_03 with modifications by Matthew J Sprague
 // Using the exercise files on GitHub, by Eduardo Corpeño 
 
 #include <iostream>
